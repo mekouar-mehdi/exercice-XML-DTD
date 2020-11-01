@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<commandesClients>
+        <client commande="c1 c2" sexe = "masculin">
+            <nom>mehdi</nom>
+            <prenom>mekouar</prenom>
+            <commande id="c1">
+                <date>10/10/2020</date>
+                <ligneCommande>
+                    <produit qte="1">samsung</produit>
+                </ligneCommande>
+                
+                <ligneCommande>
+                    <produit qte="2">tablette</produit>
+                </ligneCommande>
+                
+                <ligneCommande>
+                    <produit qte="3">pc portable</produit>
+                </ligneCommande>
+                
+                <ligneCommande>
+                    <produit qte="10"></produit>
+                </ligneCommande>
+            </commande>
+            
+            <commande id="c2">
+                <date>10/10/2020</date>
+                <ligneCommande>
+                    <produit qte="1">iphone</produit>
+                </ligneCommande>
+                
+                <ligneCommande>
+                    <produit qte="2">pc hp bureau</produit>
+                </ligneCommande>
+            </commande>
+        </client>
+    
+    <client commande="p11" sexe="feminin">
+        <nom>fadili</nom>
+        <prenom>nadia</prenom>
+        <commande id="p11">
+            <date>30/10/2020</date>
+            <ligneCommande>
+                <produit qte="5">huawei s7 pro</produit>
+            </ligneCommande>
+            <ligneCommande>
+                <produit qte="2">pc huawei ng4</produit>
+            </ligneCommande>
+        </commande>
+    </client>
+    
+</commandesClients>

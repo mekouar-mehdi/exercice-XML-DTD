@@ -1,0 +1,17 @@
+<!ELEMENT commandesClients (client*) >
+
+<!ELEMENT client (nom,prenom,commande+) >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prenom (#PCDATA) >
+<!ATTLIST client 
+          commande IDREFS #REQUIRED
+          sexe (masculin|feminin) #REQUIRED>
+          
+<!ELEMENT commande (date,ligneCommande+) >
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST commande id ID #REQUIRED >
+<!ELEMENT ligneCommande (produit) >
+<!ELEMENT produit (#PCDATA)>
+<!ATTLIST produit 
+          qte CDATA #REQUIRED>
+
